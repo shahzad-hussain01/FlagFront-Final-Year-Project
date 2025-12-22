@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a776487618c5eca41bfe2a54260297f7, type: 3}
+  m_Name: Customizer
+  m_EditorClassIdentifier: 
+  Name: Customizer
+  Version: 2.0.3
+  MinMFPSVersion: 1.9.2
+  Instructions: "<?background=#FFF>INTEGRATION</background>\n\n\u25A0 After import
+    the package go to (Toolbar)MFPS -> Addons -> Customizer -> Enable\r.\n\n\u25A0
+    Then add the 'Customizer' scene to the Build Settings, the scene is located in:
+    Assets -> Addons -> Customizer -> Content -> Scene -> *\r\n\n\nYou can use the
+    example <?link=asset:Assets/Addons/Customizer/Resources/MPlayer [Customizer].prefab>player
+    prefab</link> which has the MFPS default weapons already integrated with Customizer
+    in order to test the system right away.\r\n\r\nOr you can start integrating your
+    own weapons following the documentation (Top Menu) MFPS -> Tutorials -> Customizer.\n\n<b>NOTE:</b>\nWeapons
+    need to be set up in each player prefab where you want to use them."
+  TutorialScript: CustomizerTutorial

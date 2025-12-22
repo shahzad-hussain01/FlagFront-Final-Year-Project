@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33a857392054d50419b991151dc635cf, type: 3}
+  m_Name: MatchmakingProSettings
+  m_EditorClassIdentifier: 
+  gameModes:
+  - GameMode: Free For All
+    Identifier: 1
+    IsSoloMode: 1
+    Description: The objective of FFA game mode is to score as many kills as possible
+      within the time limit or until the score threshold is reached. The player with
+      the highest score at the end of the game is declared the winner.
+    BackgroundImage: {fileID: 2800000, guid: b8b818c4b2b098d47bdffdad70d842a3, type: 3}
+  - GameMode: Team Death Match
+    Identifier: 0
+    IsSoloMode: 0
+    Description: The objective of the Team Deathmatch (TDM) game mode is for the
+      two opposing teams to compete against each other and score the most kills within
+      a set time limit or until a certain score threshold is reached. In TDM, players
+      are divided into two teams, with each team aiming to eliminate as many members
+      of the opposing team as possible while protecting their own team members from
+      being eliminated.
+    BackgroundImage: {fileID: 2800000, guid: a2a66153832f0f04c9526b7a0c025497, type: 3}
+  - GameMode: Capture The Flag
+    Identifier: 2
+    IsSoloMode: 0
+    Description: The objective of the Capture the Flag (CTF) game mode is for the
+      two opposing teams to compete against each other to capture the enemy team's
+      flag and bring it back to their own base while protecting their own flag from
+      being captured. In CTF, players are divided into two teams, with each team
+      having a flag placed in their base.
+    BackgroundImage: {fileID: 2800000, guid: a6160e18dc1827044a94828531ffe92c, type: 3}
+  - GameMode: Demolition
+    Identifier: 8
+    IsSoloMode: 0
+    Description: The objective of the Demolition game mode is for the two opposing
+      teams to compete against each other to either plant a bomb in a designated
+      location or defuse the bomb before it explodes or eliminating all the enemies
+      from the opposite team. players are divided into two teams, with each team
+      taking turns attacking and defending the bomb site.
+    BackgroundImage: {fileID: 2800000, guid: 093bcd9d3a7881a4c85656730df484dc, type: 3}
+  - GameMode: Elimination
+    Identifier: 7
+    IsSoloMode: 0
+    Description: The objective of the Elimination game mode is for two opposing teams
+      to compete against each other to eliminate all the members of the other team,
+      leaving their own team as the last one standing. In Elimination, players are
+      divided into two teams, with each team aiming to eliminate all the members
+      of the opposing team.
+    BackgroundImage: {fileID: 2800000, guid: d9f07efec948ca84085b7daaa2328309, type: 3}
+  - GameMode: Gun Race
+    Identifier: 5
+    IsSoloMode: 1
+    Description: The objective of the Gun Game game mode is for players to progress
+      through a sequence of weapons and eliminate opponents using each weapon until
+      they reach the final weapon and score a kill with it. In Gun Game, players
+      are free to play individually or in teams, with the winner being the first
+      player to reach the final weapon and score a kill with it.
+    BackgroundImage: {fileID: 2800000, guid: 8a74b8310da73df47ba050614a911333, type: 3}
+  - GameMode: Kill Confirmed
+    Identifier: 9
+    IsSoloMode: 0
+    Description: The objective of the Kill Confirmed game mode is for two opposing
+      teams to compete against each other to score the most confirmed kills by collecting
+      dog tags dropped by eliminated players. In Kill Confirmed, players are divided
+      into two teams, with each team aiming to eliminate members of the opposing
+      team and collect their dog tags to score points.
+    BackgroundImage: {fileID: 2800000, guid: 41bc9168c42d80548b333fff81a9943c, type: 3}
+  - GameMode: Cover Point
+    Identifier: 4
+    IsSoloMode: 0
+    Description: The objective of the Cover Point game mode is for players to take
+      control of and defend strategic positions on the map while preventing the opposing
+      team from doing the same. In Cover Point, players are divided into two teams,
+      with each team aiming to control and defend the most cover points on the map.
+    BackgroundImage: {fileID: 2800000, guid: c5656050ab42df8449511d870589f5d8, type: 3}
+  onCreatedRoomBehave: 0

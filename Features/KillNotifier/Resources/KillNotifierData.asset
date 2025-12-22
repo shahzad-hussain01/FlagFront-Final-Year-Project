@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819df72b73e79644cac6b827d29b6f0b, type: 3}
+  m_Name: KillNotifierData
+  m_EditorClassIdentifier: 
+  KillsStreaks:
+  - KillName: First
+    ExtraScore: 0
+    Skip: 0
+    KillIcon: {fileID: 21300000, guid: a9844f09040a5204aa10bb5adec88577, type: 3}
+    KillClip: {fileID: 8300000, guid: 1f4e99d41948d0e40bc3b3b32ab78c1f, type: 3}
+    killID: 1
+    info:
+      Killer: Briner
+      Killed: BOT Holm
+      KillMethod: Rifle
+      byHeadShot: 0
+  - KillName: Double
+    ExtraScore: 10
+    Skip: 0
+    KillIcon: {fileID: 21300000, guid: 6776e58487875d44490855265a381236, type: 3}
+    KillClip: {fileID: 8300000, guid: 00dd36bb17cf3f344ac6a1e25a3fe12d, type: 3}
+    killID: 2
+    info:
+      Killer: Briner
+      Killed: BOT Bruno
+      KillMethod: Rifle
+      byHeadShot: 0
+  - KillName: Multi Kill
+    ExtraScore: 15
+    Skip: 0
+    KillIcon: {fileID: 21300000, guid: 95dc5ecad6acae249ba7104c210260d2, type: 3}
+    KillClip: {fileID: 8300000, guid: bb8ff0d42b4392e4eacbaed6a87149a3, type: 3}
+    killID: 3
+    info:
+      Killer: Briner
+      Killed: BOT Alfred
+      KillMethod: Rifle
+      byHeadShot: 1
+  - KillName: Rambo
+    ExtraScore: 20
+    Skip: 0
+    KillIcon: {fileID: 21300000, guid: c5113861f2da9d747b5a973eb2393e0c, type: 3}
+    KillClip: {fileID: 8300000, guid: 18b5bd094eb5b894889d87d18a829bb5, type: 3}
+    killID: 4
+    info:
+      Killer: Briner
+      Killed: BOT Holm
+      KillMethod: Rifle
+      byHeadShot: 0
+  - KillName: Fantastic
+    ExtraScore: 25
+    Skip: 0
+    KillIcon: {fileID: 21300000, guid: 6bf23bd1c4ba8c44397c3bde8e7f6492, type: 3}
+    KillClip: {fileID: 8300000, guid: 0b0ddfc22dca787439f5a932d99ecbbb, type: 3}
+    killID: 5
+    info:
+      Killer: Briner
+      Killed: BOT Bruno
+      KillMethod: Rifle
+      byHeadShot: 1
+  - KillName: Unbelievable
+    ExtraScore: 30
+    Skip: 0
+    KillIcon: {fileID: 21300000, guid: 2515ca42caa16af49991bd427d2a88ac, type: 3}
+    KillClip: {fileID: 8300000, guid: f664bd1e085050c48baa59427b01fbc6, type: 3}
+    killID: 5
+    info:
+      Killer: Briner
+      Killed: BOT Ariana
+      KillMethod: Rifle
+      byHeadShot: 0
+  - KillName: Big Boss
+    ExtraScore: 50
+    Skip: 0
+    KillIcon: {fileID: 21300000, guid: 78f64b0604f0e9348ac4a605b39bb0c5, type: 3}
+    KillClip: {fileID: 8300000, guid: 9ac7dcf094c881a49bb1777b769f02d7, type: 3}
+    killID: 9
+    info:
+      Killer: Briner
+      Killed: BOT Tim
+      KillMethod: Pistol
+      byHeadShot: 1
+  specialNotifications:
+  - key: headshot
+    info:
+      KillName: Headshot
+      ExtraScore: 50
+      Skip: 0
+      KillIcon: {fileID: 21300000, guid: f97fbfb1cb125c540a97a1a6887a0f34, type: 3}
+      KillClip: {fileID: 8300000, guid: 42119d4dc0d7b024d830131a5a2ffc5d, type: 3}
+      killID: 0
+      info:
+        Killer: 
+        Killed: 
+        KillMethod: 
+        byHeadShot: 0
+  TimeToShow: 3.5
+  volumeMultiplier: 1
+  OverrideOnNewStreak: 1
+  prioretizeHeadShotNotification: 0
+  killNotifierTextType: 1
+  killCountFormat: '{0} Kill'

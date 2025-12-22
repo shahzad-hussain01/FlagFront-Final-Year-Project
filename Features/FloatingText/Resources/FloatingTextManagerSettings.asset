@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 026cb4490bcf07a49b8048ef1f0e6735, type: 3}
+  m_Name: FloatingTextManagerSettings
+  m_EditorClassIdentifier: 
+  damageTextFormat: '{0}'
+  damageTextColorGradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 0.9296001, b: 0.0047169924, a: 1}
+    key2: {r: 1, g: 0.8600104, b: 0.0043638786, a: 0}
+    key3: {r: 1, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 16384
+    ctime2: 42598
+    ctime3: 49151
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 2
+  criticalDamage: 50
+  damageTextSetting: {fileID: 11400000, guid: 90f10fcd3b73b1e48bd6235397b409d3, type: 2}
+  damagePositionOffset: {x: 1, y: 0, z: 0}
+  extraTextSize: -8
+  textReuses: 0
+  floatingTextSettings:
+  - Name: default
+    Settings: {fileID: 11400000, guid: 652af7818f06f9d4c8db574a0180ee10, type: 2}
+  - Name: apex
+    Settings: {fileID: 11400000, guid: 54672fa58d28ca94eb53d0aaea807fbf, type: 2}
+  - Name: fortnite
+    Settings: {fileID: 11400000, guid: 256bd1c7837cd9b4790edeceebbd23d7, type: 2}
+  - Name: division
+    Settings: {fileID: 11400000, guid: 90f10fcd3b73b1e48bd6235397b409d3, type: 2}
+  - Name: lol
+    Settings: {fileID: 11400000, guid: 4bd9bd65b7cbc694384c544b3f178c69, type: 2}
+  - Name: candy
+    Settings: {fileID: 11400000, guid: 9881dd42bc3406348a3597bb1b7d8180, type: 2}
+  - Name: comment
+    Settings: {fileID: 11400000, guid: e2f601cbd4dcc3141b81297098e1bf72, type: 2}
+  - Name: shake
+    Settings: {fileID: 11400000, guid: 4462bdab3c228ba4dbda1c315574949c, type: 2}
+  - Name: random
+    Settings: {fileID: 11400000, guid: 4a61f8f65e55e0f41ae828484c4cc7da, type: 2}
+  - Name: slide-left
+    Settings: {fileID: 11400000, guid: 44a716c263befdb43814137fbd40ddb9, type: 2}
+  - Name: drop
+    Settings: {fileID: 11400000, guid: 5eb6113f87c450344941ddcb05dcd2cf, type: 2}
